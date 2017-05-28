@@ -1,2 +1,1 @@
-import NoScrollbar from './src/NoScrollbar';
-export default NoScrollbar;
+module.exports = require('./dist/no-scrollbar');

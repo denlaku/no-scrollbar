@@ -42,7 +42,7 @@ class NoScrollbar extends Component {
       'overflow-y': 'auto'
     };
     const innerStyle = {
-
+      width: `${this.state.width}px`
     };
     return (
       <div ref={(node) => this.handleRef(node)} style={wrapStyle} >

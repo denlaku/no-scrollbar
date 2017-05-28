@@ -1,2 +1,2 @@
-import NoScrollbar from '.src/NoScrollbar';
+import NoScrollbar from './src/NoScrollbar';
 export default NoScrollbar;

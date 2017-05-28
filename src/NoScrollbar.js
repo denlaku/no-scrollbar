@@ -66,7 +66,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 NoScrollbar.defaultProps = {
   scrollWidth: '25px',
-  overflowX: 'hidden';
+  overflowX: 'hidden'
 };
 
 

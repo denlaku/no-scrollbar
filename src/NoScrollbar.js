@@ -38,8 +38,8 @@ class NoScrollbar extends Component {
     const scrollStyle = {
       width: `calc(100% + ${scrollWidth})`,
       height: '100%',
-      'overflow-x': overflowX,
-      'overflow-y': 'auto'
+      overflowX,
+      overflowY: 'auto'
     };
     const innerStyle = {
       width: `${this.state.width}px`

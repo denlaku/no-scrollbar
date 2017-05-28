@@ -1,0 +1,28 @@
+{
+  "name": "no-scrollbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denlaku/no-scrollbar.git"
+  },
+  "keywords": [
+    "react",
+    "no-scrollbar",
+    "component"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denlaku/no-scrollbar/issues"
+  },
+  "homepage": "https://github.com/denlaku/no-scrollbar#readme",
+  "devDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}

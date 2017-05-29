@@ -1,4 +1,5 @@
-var webpack = require("webpack");
+const webpack = require("webpack");
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   context: __dirname,
@@ -46,7 +47,11 @@ module.exports = {
         NODE_ENV: JSON.stringify("production")
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}, sourceMap: true})
+    new UglifyJSPlugin({
+      beautify: true,
+      // compress: true,
+      sourceMap: true
+    })
   ],
   resolve: {
     extensions: [".webpack.js", ".web.js", ".js", ".jsx"]

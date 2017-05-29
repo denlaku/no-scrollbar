@@ -1,1 +1,1 @@
-module.exports = require('./dist/no-scrollbar');
+module.exports = require('./lib/no-scrollbar');

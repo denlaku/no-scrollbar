@@ -7,7 +7,7 @@ module.exports = {
     "no-scrollbar": "./src/index.js"
   },
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "/lib",
     filename: "[name].js",
     libraryTarget: "umd",
     library: "NoScrollbar"

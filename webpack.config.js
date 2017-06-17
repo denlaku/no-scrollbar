@@ -49,7 +49,6 @@ module.exports = {
     }),
     new UglifyJSPlugin({
       beautify: true,
-      // compress: true,
       sourceMap: true
     })
   ],
